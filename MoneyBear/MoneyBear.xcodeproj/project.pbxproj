@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79629881252720A700725811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79629880252720A700725811 /* AppDelegate.m */; };
+		79629884252720A700725811 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79629883252720A700725811 /* SceneDelegate.m */; };
+		79629887252720A700725811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79629886252720A700725811 /* ViewController.m */; };
+		7962988A252720A700725811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79629888252720A700725811 /* Main.storyboard */; };
+		7962988C252720AC00725811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7962988B252720AC00725811 /* Assets.xcassets */; };
+		7962988F252720AC00725811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7962988D252720AC00725811 /* LaunchScreen.storyboard */; };
+		79629892252720AC00725811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79629891252720AC00725811 /* main.m */; };
+		796298A5252721AD00725811 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989E252720FE00725811 /* FBSDKCoreKit.framework */; };
+		796298A6252721AD00725811 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989E252720FE00725811 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		796298A8252721B000725811 /* FBSDKGamingServicesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989C252720FD00725811 /* FBSDKGamingServicesKit.framework */; };
+		796298A9252721B000725811 /* FBSDKGamingServicesKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989C252720FD00725811 /* FBSDKGamingServicesKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		796298AA252721B200725811 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989B252720FD00725811 /* FBSDKLoginKit.framework */; };
+		796298AB252721B200725811 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989B252720FD00725811 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		796298AC252721B400725811 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989D252720FD00725811 /* FBSDKShareKit.framework */; };
+		796298AD252721B400725811 /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962989D252720FD00725811 /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		796298BA2527247600725811 /* FBSDKCoreKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 796298AE2527247200725811 /* FBSDKCoreKit.framework.dSYM */; };
+		796298BB2527247600725811 /* 716A140E-6499-3A28-944E-2EB31959AD37.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298AF2527247200725811 /* 716A140E-6499-3A28-944E-2EB31959AD37.bcsymbolmap */; };
+		796298BC2527247600725811 /* EE225072-C67F-3EC7-9D43-D9E5138C93A7.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298B02527247300725811 /* EE225072-C67F-3EC7-9D43-D9E5138C93A7.bcsymbolmap */; };
+		796298BD2527247600725811 /* 53F7BB61-3C30-31C1-8383-696AB53B8515.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298B12527247300725811 /* 53F7BB61-3C30-31C1-8383-696AB53B8515.bcsymbolmap */; };
+		796298BE2527247600725811 /* 5C406F22-6D29-3C62-B977-AEEB0A7B8AD3.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298B22527247300725811 /* 5C406F22-6D29-3C62-B977-AEEB0A7B8AD3.bcsymbolmap */; };
+		796298BF2527247600725811 /* 23D31DC0-8B81-302E-9615-419AB5A760A8.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298B32527247400725811 /* 23D31DC0-8B81-302E-9615-419AB5A760A8.bcsymbolmap */; };
+		796298C02527247600725811 /* F087E504-5988-30FC-B288-AE498CFD0C72.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298B42527247400725811 /* F087E504-5988-30FC-B288-AE498CFD0C72.bcsymbolmap */; };
+		796298C12527247600725811 /* FBSDKLoginKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 796298B52527247400725811 /* FBSDKLoginKit.framework.dSYM */; };
+		796298C22527247600725811 /* 0D108584-CBDF-3321-8460-7CB67032C2F0.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298B62527247400725811 /* 0D108584-CBDF-3321-8460-7CB67032C2F0.bcsymbolmap */; };
+		796298C32527247600725811 /* FBSDKShareKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 796298B72527247500725811 /* FBSDKShareKit.framework.dSYM */; };
+		796298C42527247600725811 /* 7B1F0DAF-BCDE-3C4F-9603-7B5071A825F4.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 796298B82527247500725811 /* 7B1F0DAF-BCDE-3C4F-9603-7B5071A825F4.bcsymbolmap */; };
+		796298C52527247600725811 /* FBSDKGamingServicesKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 796298B92527247500725811 /* FBSDKGamingServicesKit.framework.dSYM */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		796298A7252721AD00725811 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				796298AD252721B400725811 /* FBSDKShareKit.framework in Embed Frameworks */,
+				796298A9252721B000725811 /* FBSDKGamingServicesKit.framework in Embed Frameworks */,
+				796298A6252721AD00725811 /* FBSDKCoreKit.framework in Embed Frameworks */,
+				796298AB252721B200725811 /* FBSDKLoginKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7962987C252720A700725811 /* MoneyBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7962987F252720A700725811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79629880252720A700725811 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79629882252720A700725811 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		79629883252720A700725811 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		79629885252720A700725811 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79629886252720A700725811 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79629889252720A700725811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7962988B252720AC00725811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7962988E252720AC00725811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79629890252720AC00725811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79629891252720AC00725811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7962989B252720FD00725811 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7962989C252720FD00725811 /* FBSDKGamingServicesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKGamingServicesKit.framework; sourceTree = "<group>"; };
+		7962989D252720FD00725811 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7962989E252720FE00725811 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		796298AE2527247200725811 /* FBSDKCoreKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = FBSDKCoreKit.framework.dSYM; sourceTree = "<group>"; };
+		796298AF2527247200725811 /* 716A140E-6499-3A28-944E-2EB31959AD37.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "716A140E-6499-3A28-944E-2EB31959AD37.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B02527247300725811 /* EE225072-C67F-3EC7-9D43-D9E5138C93A7.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "EE225072-C67F-3EC7-9D43-D9E5138C93A7.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B12527247300725811 /* 53F7BB61-3C30-31C1-8383-696AB53B8515.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "53F7BB61-3C30-31C1-8383-696AB53B8515.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B22527247300725811 /* 5C406F22-6D29-3C62-B977-AEEB0A7B8AD3.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5C406F22-6D29-3C62-B977-AEEB0A7B8AD3.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B32527247400725811 /* 23D31DC0-8B81-302E-9615-419AB5A760A8.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "23D31DC0-8B81-302E-9615-419AB5A760A8.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B42527247400725811 /* F087E504-5988-30FC-B288-AE498CFD0C72.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "F087E504-5988-30FC-B288-AE498CFD0C72.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B52527247400725811 /* FBSDKLoginKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = FBSDKLoginKit.framework.dSYM; sourceTree = "<group>"; };
+		796298B62527247400725811 /* 0D108584-CBDF-3321-8460-7CB67032C2F0.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "0D108584-CBDF-3321-8460-7CB67032C2F0.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B72527247500725811 /* FBSDKShareKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = FBSDKShareKit.framework.dSYM; sourceTree = "<group>"; };
+		796298B82527247500725811 /* 7B1F0DAF-BCDE-3C4F-9603-7B5071A825F4.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7B1F0DAF-BCDE-3C4F-9603-7B5071A825F4.bcsymbolmap"; sourceTree = "<group>"; };
+		796298B92527247500725811 /* FBSDKGamingServicesKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = FBSDKGamingServicesKit.framework.dSYM; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79629879252720A700725811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796298AC252721B400725811 /* FBSDKShareKit.framework in Frameworks */,
+				796298A5252721AD00725811 /* FBSDKCoreKit.framework in Frameworks */,
+				796298A8252721B000725811 /* FBSDKGamingServicesKit.framework in Frameworks */,
+				796298AA252721B200725811 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79629873252720A700725811 = {
+			isa = PBXGroup;
+			children = (
+				7962989A252720D300725811 /* Frameworks */,
+				7962987E252720A700725811 /* MoneyBear */,
+				7962987D252720A700725811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7962987D252720A700725811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7962987C252720A700725811 /* MoneyBear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7962987E252720A700725811 /* MoneyBear */ = {
+			isa = PBXGroup;
+			children = (
+				7962987F252720A700725811 /* AppDelegate.h */,
+				79629880252720A700725811 /* AppDelegate.m */,
+				79629882252720A700725811 /* SceneDelegate.h */,
+				79629883252720A700725811 /* SceneDelegate.m */,
+				79629885252720A700725811 /* ViewController.h */,
+				79629886252720A700725811 /* ViewController.m */,
+				79629888252720A700725811 /* Main.storyboard */,
+				7962988B252720AC00725811 /* Assets.xcassets */,
+				7962988D252720AC00725811 /* LaunchScreen.storyboard */,
+				79629890252720AC00725811 /* Info.plist */,
+				79629891252720AC00725811 /* main.m */,
+			);
+			path = MoneyBear;
+			sourceTree = "<group>";
+		};
+		7962989A252720D300725811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				796298B62527247400725811 /* 0D108584-CBDF-3321-8460-7CB67032C2F0.bcsymbolmap */,
+				796298B22527247300725811 /* 5C406F22-6D29-3C62-B977-AEEB0A7B8AD3.bcsymbolmap */,
+				796298B82527247500725811 /* 7B1F0DAF-BCDE-3C4F-9603-7B5071A825F4.bcsymbolmap */,
+				796298B32527247400725811 /* 23D31DC0-8B81-302E-9615-419AB5A760A8.bcsymbolmap */,
+				796298B12527247300725811 /* 53F7BB61-3C30-31C1-8383-696AB53B8515.bcsymbolmap */,
+				796298AF2527247200725811 /* 716A140E-6499-3A28-944E-2EB31959AD37.bcsymbolmap */,
+				796298B02527247300725811 /* EE225072-C67F-3EC7-9D43-D9E5138C93A7.bcsymbolmap */,
+				796298B42527247400725811 /* F087E504-5988-30FC-B288-AE498CFD0C72.bcsymbolmap */,
+				796298AE2527247200725811 /* FBSDKCoreKit.framework.dSYM */,
+				796298B92527247500725811 /* FBSDKGamingServicesKit.framework.dSYM */,
+				796298B52527247400725811 /* FBSDKLoginKit.framework.dSYM */,
+				796298B72527247500725811 /* FBSDKShareKit.framework.dSYM */,
+				7962989E252720FE00725811 /* FBSDKCoreKit.framework */,
+				7962989C252720FD00725811 /* FBSDKGamingServicesKit.framework */,
+				7962989B252720FD00725811 /* FBSDKLoginKit.framework */,
+				7962989D252720FD00725811 /* FBSDKShareKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7962987B252720A700725811 /* MoneyBear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79629895252720AC00725811 /* Build configuration list for PBXNativeTarget "MoneyBear" */;
+			buildPhases = (
+				79629878252720A700725811 /* Sources */,
+				79629879252720A700725811 /* Frameworks */,
+				7962987A252720A700725811 /* Resources */,
+				796298A7252721AD00725811 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyBear;
+			productName = MoneyBear;
+			productReference = 7962987C252720A700725811 /* MoneyBear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79629874252720A700725811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7962987B252720A700725811 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 79629877252720A700725811 /* Build configuration list for PBXProject "MoneyBear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79629873252720A700725811;
+			productRefGroup = 7962987D252720A700725811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7962987B252720A700725811 /* MoneyBear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7962987A252720A700725811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796298C22527247600725811 /* 0D108584-CBDF-3321-8460-7CB67032C2F0.bcsymbolmap in Resources */,
+				7962988F252720AC00725811 /* LaunchScreen.storyboard in Resources */,
+				796298BA2527247600725811 /* FBSDKCoreKit.framework.dSYM in Resources */,
+				796298C12527247600725811 /* FBSDKLoginKit.framework.dSYM in Resources */,
+				796298C42527247600725811 /* 7B1F0DAF-BCDE-3C4F-9603-7B5071A825F4.bcsymbolmap in Resources */,
+				796298C02527247600725811 /* F087E504-5988-30FC-B288-AE498CFD0C72.bcsymbolmap in Resources */,
+				796298BE2527247600725811 /* 5C406F22-6D29-3C62-B977-AEEB0A7B8AD3.bcsymbolmap in Resources */,
+				7962988C252720AC00725811 /* Assets.xcassets in Resources */,
+				796298C52527247600725811 /* FBSDKGamingServicesKit.framework.dSYM in Resources */,
+				796298C32527247600725811 /* FBSDKShareKit.framework.dSYM in Resources */,
+				796298BF2527247600725811 /* 23D31DC0-8B81-302E-9615-419AB5A760A8.bcsymbolmap in Resources */,
+				796298BB2527247600725811 /* 716A140E-6499-3A28-944E-2EB31959AD37.bcsymbolmap in Resources */,
+				7962988A252720A700725811 /* Main.storyboard in Resources */,
+				796298BD2527247600725811 /* 53F7BB61-3C30-31C1-8383-696AB53B8515.bcsymbolmap in Resources */,
+				796298BC2527247600725811 /* EE225072-C67F-3EC7-9D43-D9E5138C93A7.bcsymbolmap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79629878252720A700725811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79629887252720A700725811 /* ViewController.m in Sources */,
+				79629881252720A700725811 /* AppDelegate.m in Sources */,
+				79629892252720AC00725811 /* main.m in Sources */,
+				79629884252720A700725811 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79629888252720A700725811 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79629889252720A700725811 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7962988D252720AC00725811 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7962988E252720AC00725811 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79629893252720AC00725811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79629894252720AC00725811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79629896252720AC00725811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R9X2Z7Q6R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = MoneyBear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uop.eranthawelikala.MoneyBear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79629897252720AC00725811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6R9X2Z7Q6R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = MoneyBear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uop.eranthawelikala.MoneyBear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79629877252720A700725811 /* Build configuration list for PBXProject "MoneyBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79629893252720AC00725811 /* Debug */,
+				79629894252720AC00725811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79629895252720AC00725811 /* Build configuration list for PBXNativeTarget "MoneyBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79629896252720AC00725811 /* Debug */,
+				79629897252720AC00725811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79629874252720A700725811 /* Project object */;
+}
